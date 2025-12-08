@@ -275,10 +275,6 @@ nav{
     padding: 20px;
     color: #626262;
 }
-.post-container{
-    background-color: #efefef;
-
-}
 
 .user-profile{
     display: flex;
@@ -333,7 +329,7 @@ nav{
 
 .post-container{
     width: 100%;
-    background-color: #fff;
+    background-color: #efefef;
     border-radius: 6px;
     padding: 20px;
     color: #626262;
@@ -470,7 +466,7 @@ nav{
 }
 
 .profile-details{
-    background-color: #fff;
+    background-color: #efefef;
     padding: 20px;
     border-radius: 4px;
     display: flex;
@@ -480,7 +476,7 @@ nav{
 
 .pd-row{
     display: flex;
-    align-items: flex-start;
+    align-items: flex-start;;
 }
 
 .pd-img{
@@ -531,7 +527,7 @@ nav{
 }
 
 .profile-intro{
-    background-color: #fff;
+    background-color: rgb(254, 253, 172);
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 4px;

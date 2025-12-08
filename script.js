@@ -6,42 +6,27 @@ function settingsMenuToggle(){
 
 
 
-let btn1 = document.getElementById("al1");
-btn1.addEventListener(`click`,function(){
-    alert("Do you want like?");
-})
-let btn2 = document.getElementById("al2");
-btn2.addEventListener(`click`,function(){
-    alert("Do you want comment?");
-})
-let btn3 = document.getElementById("al3");
-btn3.addEventListener(`click`,function(){
-    alert("Do you want share?");
-})
-let btn4 = document.getElementById("al4");
-btn4.addEventListener(`click`,function(){
-    alert("Do you want like?");
-})
-let btn5 = document.getElementById("al5");
-btn5.addEventListener(`click`,function(){
-    alert("Do you want comment?");
-})
-let btn6 = document.getElementById("al6");
-btn6.addEventListener(`click`,function(){
-    alert("Do you want share?");
-})
-let btn7 = document.getElementById("al7");
-btn7.addEventListener(`click`,function(){
-    alert("Do you want like?");
-})
-let btn8 = document.getElementById("al8");
-btn8.addEventListener(`click`,function(){
-    alert("Do you want comment?");
-})
-let btn9 = document.getElementById("al9");
-btn9.addEventListener(`click`,function(){
-    alert("Do you want share?");
-})
+let btn1 = document.querySelectorAll(".al1");
+btn1.forEach(button => {
+    button.addEventListener("click", function () {
+        alert("Do you want to like?");
+    });
+});
+
+let btn2 = document.querySelectorAll(".al2");
+btn2.forEach(button => {
+    button.addEventListener("click", function () {
+        alert("Do you want to comment?");
+    });
+});
+
+let btn3 = document.querySelectorAll(".al3");
+btn3.forEach(button => {
+    button.addEventListener("click", function () {
+        alert("Do you want to share?");
+    });
+});
+
 
 
 
